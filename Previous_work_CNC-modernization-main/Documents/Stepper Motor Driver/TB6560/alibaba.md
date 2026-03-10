@@ -1,0 +1,26 @@
+Kutuda ne var?
+
+1 adet * 3 eksenSürücü panosu TB6560
+
+|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Açıklama**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Özellikler:**<br><br>- Toshiba TB6560AHQ çip-maksimum**3.5A**Sürücü akımı, daha güçlü<br>- 1-1/16 mikro ayar-daha yüksek doğruluk, daha düzgün çalışma!<br>- Aşırı yük ve aşırı akım ve aşırı sıcaklık koruması, bilgisayarınızın ve çevre ekipmanınızın tam koruması<br>- 4 dosya mevcut ayarları kullanıcı gerçek akım ihtiyacına göre ayarlanabilir<br>- Kullanıcının bilgisayarını ve ekipmanını korumak için tam kapalı tip optik izolasyon<br>- Profesyonel tasarım, iki aşamalı sinyal işleme, süper anti-sıkışma<br>- Bipolar sabit akım kıyıcı sürücü motoru düşük hızlı sürünen olmayan fenomen, gürültü, rezonans olmayan bölge<br>- Dört giriş kontrolü, bıçak çiftlerine bölünmüş limit, acil durdurma ayarlayabilirsiniz<br><br>**Dikkat:**<br><br>- Lütfen güç kaynağını güç anahtarına bağlayın**12-36 V, 8A**<br>- 12 V güç çıkışı 12v'nin radyatör fanı 'sine uygulanacaktır.<br>- Sürücünün arayüzü ile bağlanmalıdır**3A akım içinde 2/4 faz, 4/6/8 step motor açar**<br>- Bu tahta her ikisi ile çalışabilir**Unipolar ve bipolar**Step motorlar<br>- Mil motoru paralel arayüz ile kontrol edilir. Mil motorunun voltajı, besleme voltajının kapsamına uygun olmalıdır. |
+
+**Özellikler**
+
+| Elektriksel özellikler (ortam sıcaklığı Tj = 25 pm) |
+| --- | --- |
+| **Giriş gücü** | 12-36 V DC güç kaynağı |
+| **Step motor sürücü akımı** | 3A (tepe değeri 3.5A)/eksen |
+| **Sürücü tipi** | Çift kutuplu sabit akış PWM çalıştırma çıkışı |
+| **Uyumlu % step motorlar** | 2/4 faz, 4/6/8 3.5A içinde step motorlar yol açar |
+
+**Paket içeriği:** 
+
+- 1x3 eksen TB6560 step Motor sürücüsü
+- 5 x tel konektörler
+- 1 x kablo
+- 1 x CD yazılımı (İngilizce manuel ve Mach 3)
+
+![](https://ae01.alicdn.com/img/pb/881/754/264/1283151938558_hz-cnmyalibaba-web4_35160.jpg)
