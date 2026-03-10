@@ -1,3 +1,4 @@
+```mermaid
 gantt
     dateFormat  DD.MM.YY
     axisFormat  %d.%m
@@ -30,3 +31,4 @@ gantt
     Testing & Axis Calibration: test, after mech,1w
     Demo Preparation : test, after mech, 2w
     Final Presentation        : crit,milestone,final,01.07.26,1d
+```
