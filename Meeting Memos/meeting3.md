@@ -17,6 +17,10 @@
 * **Findings:** The unit provided valuable insight into high-voltage DC switching circuits and power component layout (SCRs/MOSFETs and large filter capacitors).
 * **Decision:** Due to the physical condition and aging of the components, the team decided **not to use this specific driver** for the final CNC assembly. However, it may serve as a reference for our custom-built isolated driver design.
 
+### 1.2 Musts for design
+* **Encoder and Buttons:** It will be used for zeroing parts.
+* **Screen:** It will be useful for feedback to users.
+
 ---
 
 ## 2. Weekly Objectives (Action Plan)
