@@ -1,18 +1,18 @@
-LTspice 24.1.7 for Windows
-Circuit: C:\Users\ASUS\Desktop\MEM_R\180V DC Driver\Ltspice_sim.net
-Start Time: Tue Mar 31 17:45:29 2026
+LTspice 26.0.1 for Windows
+Circuit: C:\Users\Enes-\Desktop\MEM_R\180V DC Driver\Ltspice_sim.net
+Start Time: Sun Apr  5 03:05:09 2026
 solver = Normal
-Maximum thread count: 20
+Maximum thread count: 8
 tnom = 27
 temp = 27
 method = trap
-Direct Newton iteration for .op point succeeded.
-
-Simulation stopped by user.
-Total elapsed time: 20.973 seconds.
+Compress1stOrder = true
+Compress2ndOrder = true
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 4.376 seconds.
 
 Files loaded:
-C:\Users\ASUS\Desktop\MEM_R\180V DC Driver\Ltspice_sim.net
-C:\Users\ASUS\AppData\Local\LTspice\lib\cmp\standard.dio
-C:\Users\ASUS\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\Enes-\Desktop\MEM_R\180V DC Driver\Ltspice_sim.net
+C:\Users\Enes-\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Enes-\AppData\Local\LTspice\lib\cmp\standard.mos
 
