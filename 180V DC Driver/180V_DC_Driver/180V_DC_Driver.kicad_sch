@@ -2355,6 +2355,12 @@
 		(uuid "38d0a35c-9c58-4e04-aeac-b74eecebd608")
 	)
 	(junction
+		(at 201.93 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b4e5177-3649-4d74-b566-5e5fa342633d")
+	)
+	(junction
 		(at 124.46 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2367,22 +2373,16 @@
 		(uuid "b1efa881-c322-4659-a3af-1d060cf1ac6c")
 	)
 	(junction
-		(at 160.02 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6023497-e869-470f-b147-9ffc797adcc9")
-	)
-	(junction
 		(at 160.02 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcb52f47-b9fc-49b7-9f74-0a52b73e97a4")
 	)
 	(junction
-		(at 201.93 88.9)
+		(at 160.02 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0b5cfe0-e82f-4108-837b-110ea05a1ed6")
+		(uuid "f8c80635-1006-489c-9c0e-48ffd4605d72")
 	)
 	(junction
 		(at 143.51 88.9)
@@ -2482,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 88.9) (xy 189.23 88.9)
+			(xy 201.93 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2682,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 181.61 88.9)
+			(xy 160.02 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3346,7 +3346,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 185.42 88.9 90)
+		(at 179.07 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3357,7 +3357,7 @@
 		(fields_autoplaced yes)
 		(uuid "41930e2b-b8c0-43ff-b762-829a838b14c9")
 		(property "Reference" "F1"
-			(at 185.42 82.55 90)
+			(at 179.07 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3367,7 +3367,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 185.42 85.09 90)
+			(at 179.07 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3377,7 +3377,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 90.678 90)
+			(at 179.07 90.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3388,7 +3388,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 88.9 0)
+			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3399,7 +3399,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 185.42 88.9 0)
+			(at 179.07 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\Enes-\Desktop\MEM_R\180V DC Driver\Ltspice_sim.net
-Start Time: Sun Apr  5 03:05:09 2026
+Start Time: Sat Apr 11 14:31:07 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -9,7 +9,7 @@ method = trap
 Compress1stOrder = true
 Compress2ndOrder = true
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 4.376 seconds.
+Total elapsed time: 14.053 seconds.
 
 Files loaded:
 C:\Users\Enes-\Desktop\MEM_R\180V DC Driver\Ltspice_sim.net
