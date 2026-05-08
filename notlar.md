@@ -2,3 +2,6 @@
 17.03.2026 : 10   (Motoru çalıştırdık ve Arash güzel fikirlerimiz olduğunu düşünüyor)
 24.03.2026 : 7.5  (bayram sebebiyle çok çalışamadık, cnc isterlerini anlmak adına videolar izledik ve koşu bandı sürücüsü inceledik)
 31.03.2026 : 6.0  (devre simulasyonları uzerine çalıştık fakat cok da ilerleme kaydedemedik)
+07.04.2026 : 7.0  (Driverın teorik tasarımını tamamladık))
+14.04.2026 : 5.0  (Parça siparişleri verildi, G code interpreteri için araştırma yapıldı)
+21.04.2026 : 8.5  (Motor sürücüsü üretimi yapıldı, G code interpreteri ile step motorlarını sürdük)
