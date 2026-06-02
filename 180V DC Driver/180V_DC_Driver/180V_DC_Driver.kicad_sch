@@ -5,7 +5,331 @@
 	(uuid "13bfba2c-6cdb-45b8-8af4-616b0af37af3")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
 			)
@@ -28,7 +352,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "C"
+			(property "Value" "C_Polarized"
 				(at 0.635 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -61,7 +385,7 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "Description" "Polarized capacitor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -83,7 +407,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
+			(property "ki_fp_filters" "CP_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -94,13 +418,12 @@
 					)
 				)
 			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -109,18 +432,41 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -1.778 2.286) (xy -0.762 2.286)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_Polarized_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -413,6 +759,279 @@
 				)
 			)
 			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Thermistor_NTC"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TH"
+				(at -4.445 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Thermistor_NTC"
+				(at 3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "thermistor NTC resistor sensor RTD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_* RV_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_0_1"
+				(arc
+					(start -3.175 2.413)
+					(mid -3.0506 2.3165)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.048 2.794)
+					(mid -2.9736 2.9736)
+					(end -2.794 3.048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 3.048)
+					(mid -2.6144 2.9736)
+					(end -2.54 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 2.54)
+					(mid -2.9736 2.6144)
+					(end -3.048 2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.794 1.905)
+					(mid -2.9736 1.9794)
+					(end -3.048 2.159)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.159)
+					(mid -2.6144 1.9794)
+					(end -2.794 1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 2.794)
+					(mid -2.434 2.5608)
+					(end -2.794 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.159) (xy -2.54 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -3.683) (xy -2.54 -1.397) (xy -2.794 -2.159) (xy -2.286 -2.159) (xy -2.54 -1.397) (xy -2.54 -1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.54) (xy -1.778 1.524) (xy 1.778 -1.524) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.397) (xy -1.778 -3.683) (xy -2.032 -2.921) (xy -1.524 -2.921) (xy -1.778 -3.683)
+						(xy -1.778 -3.429)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Thermistor_NTC_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -787,14 +1406,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:61300311121"
+		(symbol "SamacSys_Parts:400VXH1000MEFCSN35X50"
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -804,8 +1426,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "61300311121"
-				(at 16.51 5.08 0)
+			(property "Value" "400VXH1000MEFCSN35X50"
+				(at 8.89 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -815,20 +1437,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "HDRV3W64P0X254_1X3_762X254X869P"
-				(at 16.51 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61300311121.pdf"
-				(at 16.51 -194.92 0)
+			(property "Footprint" "CAPPRD1000W180D3500H5200"
+				(at 8.89 -96.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -839,7 +1449,19 @@
 					(justify left top)
 				)
 			)
-			(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
+			(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/VXH.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "1000 F 400 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 2000 Hrs @ 105C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -850,8 +1472,8 @@
 					)
 				)
 			)
-			(property "Height" "8.69"
-				(at 16.51 -394.92 0)
+			(property "Height" "52"
+				(at 8.89 -396.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -862,8 +1484,8 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 16.51 -494.92 0)
+			(property "Manufacturer_Name" "Rubycon"
+				(at 8.89 -496.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -874,8 +1496,8 @@
 					(justify left top)
 				)
 			)
-			(property "Manufacturer_Part_Number" "61300311121"
-				(at 16.51 -594.92 0)
+			(property "Manufacturer_Part_Number" "400VXH1000MEFCSN35X50"
+				(at 8.89 -596.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -886,8 +1508,8 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Part Number" "710-61300311121"
-				(at 16.51 -694.92 0)
+			(property "Mouser Part Number" ""
+				(at 8.89 -696.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -898,8 +1520,8 @@
 					(justify left top)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
-				(at 16.51 -794.92 0)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -796.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -911,7 +1533,7 @@
 				)
 			)
 			(property "Arrow Part Number" ""
-				(at 16.51 -894.92 0)
+				(at 8.89 -896.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -923,7 +1545,7 @@
 				)
 			)
 			(property "Arrow Price/Stock" ""
-				(at 16.51 -994.92 0)
+				(at 8.89 -996.19 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -934,10 +1556,46 @@
 					(justify left top)
 				)
 			)
-			(symbol "61300311121_1_1"
+			(symbol "400VXH1000MEFCSN35X50_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -7.62)
+					(end 5.842 -2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -946,10 +1604,34 @@
 						(type background)
 					)
 				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "1"
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -965,9 +1647,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -975,24 +1657,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1231,6 +1895,240 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_Parts:HLK-PM12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "PS"
+				(at 24.13 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "HLK-PM12"
+				(at 24.13 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "HLKPM12"
+				(at 24.13 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://static.chipdip.ru/lib/919/DOC012919592.pdf"
+				(at 24.13 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "3WUltra-small PowerModule"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "15"
+				(at 24.13 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Hi-Link"
+				(at 24.13 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "HLK-PM12"
+				(at 24.13 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 24.13 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 24.13 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 24.13 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 24.13 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "HLK-PM12_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "AC_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "AC_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "-V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "+V0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1592,6 +2490,238 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:KBPC5010W"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BR1"
+				(at 12.7 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "KBPC5010W"
+				(at 12.7 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:Diode_Bridge_28.6x28.6x7.3mm_P18.0mm_P11.6mm"
+				(at 21.59 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.comchiptech.com/admin/files/product/20181106093830.PDF"
+				(at 21.59 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Bridge Rectifier Single Phase Standard 1 kV Through Hole KBPC-W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "11.23"
+				(at 21.59 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "GeneSiC Semiconductor"
+				(at 21.59 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KBPC5010W"
+				(at 21.59 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "905-KBPC5010W"
+				(at 21.59 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GeneSiC-Semiconductor/KBPC5010W?qs=3vb5YHheJT0GglhdgIf9cQ%3D%3D"
+				(at 21.59 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 21.59 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 21.59 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "KBPC5010W_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "~_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:MUR1560G"
 			(pin_names
 				(hide yes)
@@ -1830,511 +2960,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:TLP250_F_"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 36.83 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "TLP250_F_"
-				(at 36.83 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "DIP762W60P254L966H485Q8N"
-				(at 36.83 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA20/76463.pdf"
-				(at 36.83 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "MOSFET drive opto-isolator,TLP250(F) Toshiba TLP250(F) DC Input Transistor Output Optocoupler, Through Hole, 8-Pin PDIP"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "4.85"
-				(at 36.83 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "Toshiba"
-				(at 36.83 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "TLP250(F)"
-				(at 36.83 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" "757-TLP250(F)"
-				(at 36.83 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP250F?qs=f0GatGUIxV2cDxQrFeprhQ%3D%3D"
-				(at 36.83 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Part Number" "TLP250(F)"
-				(at 36.83 -894.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlp250-f/toshiba"
-				(at 36.83 -994.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "TLP250_F__1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 35.56 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NC_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "ANODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CATHODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "NC_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -7.62 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -5.08 180)
-					(length 5.08)
-					(name "VO_(OUTPUT)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 -2.54 180)
-					(length 5.08)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 40.64 0 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDPWR"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 124.46 101.6)
+		(at 156.21 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "01b1b060-9d53-453e-8c19-352b600548ca")
-	)
-	(junction
-		(at 143.51 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07c6ec05-689c-4048-ae7f-92f8eb92082d")
+		(uuid "163165c6-d304-48d7-8f0a-d2b50ac63c72")
 	)
 	(junction
 		(at 205.74 119.38)
@@ -2343,16 +2974,58 @@
 		(uuid "17fe6152-0349-44db-bf6f-1231ad5c82a2")
 	)
 	(junction
+		(at 140.97 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "251d23b0-1377-4816-ad7d-b10023244b20")
+	)
+	(junction
 		(at 220.98 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "32f04b13-76a8-4921-89c8-0eb014019f63")
 	)
 	(junction
+		(at 111.76 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dfb8e4c-06bd-47f0-aca1-ceb1727882ac")
+	)
+	(junction
+		(at 156.21 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5aaa023f-f4c1-415e-89f8-239e191600dc")
+	)
+	(junction
+		(at 130.81 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "665ca9b1-d2b3-4d9e-8ce1-321dca9a10ac")
+	)
+	(junction
+		(at 123.19 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ba75e5b-6777-427c-801e-9f87b4c87a0b")
+	)
+	(junction
+		(at 53.34 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81bfbda1-dc4a-4929-bcf5-ce91cea3e16c")
+	)
+	(junction
 		(at 220.98 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38d0a35c-9c58-4e04-aeac-b74eecebd608")
+		(uuid "85779efd-62be-4b75-8c2d-91d6689317c9")
+	)
+	(junction
+		(at 140.97 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8759be5c-e4a5-4223-b4bd-f878e1706c3b")
 	)
 	(junction
 		(at 201.93 88.9)
@@ -2361,64 +3034,74 @@
 		(uuid "8b4e5177-3649-4d74-b566-5e5fa342633d")
 	)
 	(junction
-		(at 124.46 88.9)
+		(at 123.19 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ab39268e-9b4b-4da5-b1ec-ea898ad2471b")
+		(uuid "a34da9fd-f4b0-4bb5-9ec7-87fef1c991d6")
 	)
 	(junction
-		(at 160.02 101.6)
+		(at 167.64 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1efa881-c322-4659-a3af-1d060cf1ac6c")
+		(uuid "c56388c7-7a12-4f20-bc11-51ca2f825b98")
 	)
 	(junction
-		(at 160.02 151.13)
+		(at 111.76 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dcb52f47-b9fc-49b7-9f74-0a52b73e97a4")
+		(uuid "cb921a30-6b88-4561-93b8-72d3e2f027db")
 	)
 	(junction
-		(at 160.02 88.9)
+		(at 167.64 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f8c80635-1006-489c-9c0e-48ffd4605d72")
+		(uuid "fb883232-d7ad-42f1-839e-4140e63da04a")
 	)
 	(junction
-		(at 143.51 88.9)
+		(at 50.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff4250fe-4fb9-4960-a458-d6e5e0bf4ad9")
+		(uuid "fdc00f6b-6f72-4823-8463-f3491fc097e2")
 	)
 	(wire
 		(pts
-			(xy 152.4 128.27) (xy 165.1 128.27)
+			(xy 53.34 88.9) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04bbd194-f480-4e99-b70a-82c1eee2cc08")
+		(uuid "0646fb40-3ccd-4176-8873-1d82714b5c1c")
 	)
 	(wire
 		(pts
-			(xy 124.46 99.06) (xy 124.46 101.6)
+			(xy 106.68 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09253e7e-c0c0-41f1-b49a-86e8f97180d1")
+		(uuid "09f718d9-77a8-4a41-bd7e-6aae1f250b03")
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 160.02 88.9)
+			(xy 105.41 120.65) (xy 111.76 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "09a81e10-58a6-400c-8079-0d80db069eda")
+		(uuid "0c78a49c-b3d8-483b-9a1b-c03ab9fba98d")
+	)
+	(wire
+		(pts
+			(xy 81.28 88.9) (xy 77.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de3fcc0-e9a2-4073-8a5f-432eff976d2d")
 	)
 	(wire
 		(pts
@@ -2432,43 +3115,53 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 124.46 91.44)
+			(xy 53.34 88.9) (xy 69.85 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13259d7c-99e1-4bf0-b67c-4d15b06df21c")
+		(uuid "163016a1-e839-4402-9132-7bd41984941b")
 	)
 	(wire
 		(pts
-			(xy 116.84 88.9) (xy 124.46 88.9)
+			(xy 110.49 86.36) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "224046b0-375a-4595-976a-e6cb39bd50f9")
+		(uuid "2741fd7f-5ca3-4862-a0bc-43e3bfedd537")
 	)
 	(wire
 		(pts
-			(xy 116.84 88.9) (xy 116.84 99.06)
+			(xy 106.68 88.9) (xy 123.19 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "241b1749-ea49-448c-88bf-19ae24c5b907")
+		(uuid "2dc8e697-8995-4540-bb08-40ef925c3f6b")
 	)
 	(wire
 		(pts
-			(xy 165.1 148.59) (xy 165.1 128.27)
+			(xy 105.41 113.03) (xy 111.76 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3283d7ca-fc66-4907-bbf4-62ef88818d81")
+		(uuid "351b35bf-5d51-4d25-aefe-62f334d22d1d")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35432fe8-1be6-4d58-b5d9-94fe82f9b98d")
 	)
 	(wire
 		(pts
@@ -2482,17 +3175,37 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 88.9) (xy 182.88 88.9)
+			(xy 177.8 144.78) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56849c77-ca18-46a6-b05e-94e977021a63")
+		(uuid "503f6aa7-ff7b-4b51-8a18-77efa718cc92")
 	)
 	(wire
 		(pts
-			(xy 124.46 88.9) (xy 143.51 88.9)
+			(xy 114.3 83.82) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e6a750-db06-42d2-8aee-d14afe8a1b3d")
+	)
+	(wire
+		(pts
+			(xy 156.21 101.6) (xy 167.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce261d0-d3e0-44b4-af07-cece0bb0198c")
+	)
+	(wire
+		(pts
+			(xy 50.8 88.9) (xy 53.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2502,23 +3215,53 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 148.59) (xy 165.1 148.59)
+			(xy 111.76 113.03) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6725ac71-e9de-46c0-b8e1-335a9a014548")
+		(uuid "616312d2-574c-480c-aaa0-6cc3e9456203")
 	)
 	(wire
 		(pts
-			(xy 151.13 151.13) (xy 160.02 151.13)
+			(xy 69.85 115.57) (xy 73.66 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ab542ff-e043-43a1-90a6-677f7cc74019")
+		(uuid "6e14bab2-eb53-42cb-8ce1-7c5b43912fed")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 105.41 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7441723b-c254-4b78-86ce-ebfd34539a5d")
+	)
+	(wire
+		(pts
+			(xy 110.49 101.6) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7afcc711-70ab-4438-9dc5-28fe825b70ed")
+	)
+	(wire
+		(pts
+			(xy 101.6 115.57) (xy 105.41 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b384f27-7ab2-4dee-ab5e-8e96c0a85b3f")
 	)
 	(wire
 		(pts
@@ -2532,23 +3275,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 135.89) (xy 160.02 135.89)
+			(xy 62.23 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8410c5cd-e42b-4da6-ac31-139d9f2824d1")
+		(uuid "874d7898-bcee-4ada-a28b-09846a754bf2")
 	)
 	(wire
 		(pts
-			(xy 170.18 119.38) (xy 170.18 133.35)
+			(xy 50.8 101.6) (xy 50.8 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89306efb-2941-484c-8be9-38543ed45be4")
+		(uuid "8a2f2f67-6f51-4a2c-81f8-400ab9fdea04")
 	)
 	(wire
 		(pts
@@ -2562,17 +3305,17 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 130.81) (xy 92.71 130.81)
+			(xy 73.66 118.11) (xy 50.8 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d274f17-0ce9-49f0-b6af-d03ffc32d5e6")
+		(uuid "8dc2d2e5-253a-4985-8762-803f01b4ddd1")
 	)
 	(wire
 		(pts
-			(xy 143.51 99.06) (xy 143.51 101.6)
+			(xy 156.21 99.06) (xy 156.21 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2612,13 +3355,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 119.38) (xy 190.5 119.38)
+			(xy 111.76 120.65) (xy 130.81 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a1a24d81-abc0-4d21-9000-465586f94abb")
+		(uuid "a3e3f243-faba-4351-ab10-76c1a63f4c49")
 	)
 	(wire
 		(pts
@@ -2632,13 +3375,83 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 101.6) (xy 143.51 101.6)
+			(xy 50.8 91.44) (xy 50.8 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba17dc2a-3a0f-4325-ac03-85b2b5fcfeac")
+		(uuid "ae5d5114-5787-4826-9e80-841a8060ece0")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 156.21 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43cdd41-5817-441d-8e4e-3193a9ea15be")
+	)
+	(wire
+		(pts
+			(xy 167.64 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b463b398-5993-4fe5-b8dc-c710c8d1849a")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4fa1579-695c-4de6-9b5f-0cbc0d2f6add")
+	)
+	(wire
+		(pts
+			(xy 130.81 120.65) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97ba2c2-8876-4b62-9b6b-76f1f4861893")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b980cefd-6e5c-48b6-9e37-d0f7e3b0d651")
+	)
+	(wire
+		(pts
+			(xy 101.6 118.11) (xy 105.41 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab7ee7e-0844-41e8-b660-4da794e2fd31")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becd3ed8-3ef1-4fa2-b50c-2cecf9498806")
 	)
 	(wire
 		(pts
@@ -2652,23 +3465,13 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 101.6) (xy 160.02 101.6)
+			(xy 130.81 118.11) (xy 130.81 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d11a7dbb-835c-4b4f-b115-acc5a68e9f11")
-	)
-	(wire
-		(pts
-			(xy 113.03 101.6) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5202bd2-4129-4360-8c7c-884360edb314")
+		(uuid "cd51b329-421f-46d3-b55e-3f34c0c81d3e")
 	)
 	(wire
 		(pts
@@ -2682,67 +3485,87 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 175.26 88.9)
+			(xy 140.97 88.9) (xy 156.21 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df06890c-0e99-4414-99cc-d13f75948e13")
+		(uuid "d9ecca92-b89a-4f67-b20d-f4458483bec8")
 	)
 	(wire
 		(pts
-			(xy 152.4 133.35) (xy 170.18 133.35)
+			(xy 220.98 139.7) (xy 220.98 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df2555c4-df93-4b3b-9c0a-58b9cc118f07")
+		(uuid "dfce6103-bdc4-4bfd-bc73-2a8abfb23119")
 	)
 	(wire
 		(pts
-			(xy 83.82 133.35) (xy 111.76 133.35)
+			(xy 106.68 86.36) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e00f2a10-47b5-42f7-88a7-6d1ab4b42b98")
+		(uuid "e633aaed-5f86-4571-800d-ebf49930b663")
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 111.76 130.81)
+			(xy 130.81 115.57) (xy 130.81 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e7558363-0aed-42e5-b86c-71eb84829d35")
+		(uuid "ed69c491-692f-4b89-a4ee-5dad9b1d4921")
 	)
 	(wire
 		(pts
-			(xy 160.02 135.89) (xy 160.02 151.13)
+			(xy 123.19 101.6) (xy 140.97 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee79a097-cc42-4e7f-a71e-f53355035b67")
+		(uuid "ee2958dc-ce7a-4caa-85cf-e0f060d20b4d")
 	)
 	(wire
 		(pts
-			(xy 116.84 99.06) (xy 113.03 99.06)
+			(xy 105.41 115.57) (xy 105.41 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f56d9554-c6af-409e-8d57-95d764e783ff")
+		(uuid "ee4440b4-7687-4a3a-8de3-779804579d03")
 	)
 	(wire
 		(pts
-			(xy 143.51 88.9) (xy 143.51 91.44)
+			(xy 123.19 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0dda7e4-3a68-4c04-91ae-2c1068d9230b")
+	)
+	(wire
+		(pts
+			(xy 220.98 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6f06177-2822-44b2-90e5-d8edece21631")
+	)
+	(wire
+		(pts
+			(xy 156.21 88.9) (xy 156.21 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2751,8 +3574,8 @@
 		(uuid "f7674509-7829-42bb-bde2-f26c82db80dc")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 130.81 90)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 135.89 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2761,432 +3584,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0a127f78-117d-44a3-8839-322a6e4fa5b4")
-		(property "Reference" "R4"
-			(at 96.52 124.46 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330"
-			(at 96.52 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 132.588 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 96.52 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c69bfe0-1af8-4e73-bfd9-6d17cb495a36")
-		)
-		(pin "2"
-			(uuid "7c52c5e1-d6ba-4d73-a117-3da0f9f4e69f")
-		)
-		(instances
-			(project "180V_DC_Driver"
-				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 160.02 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a6de4e7-2a77-4be1-ae23-77d7a8dc4c7b")
-		(property "Reference" "#PWR03"
-			(at 160.02 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 159.893 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 160.02 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ad3303d0-8eff-4e83-85c3-7448d13addcd")
-		)
-		(instances
-			(project "180V_DC_Driver"
-				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:TLP250_F_")
-		(at 111.76 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33176921-ff58-40c3-84cd-3813e7f7eacc")
-		(property "Reference" "IC1"
-			(at 132.08 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLP250_F_"
-			(at 132.08 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DIP762W60P254L966H485Q8N"
-			(at 148.59 223.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA20/76463.pdf"
-			(at 148.59 323.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MOSFET drive opto-isolator,TLP250(F) Toshiba TLP250(F) DC Input Transistor Output Optocoupler, Through Hole, 8-Pin PDIP"
-			(at 111.76 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "4.85"
-			(at 148.59 523.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Toshiba"
-			(at 148.59 623.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TLP250(F)"
-			(at 148.59 723.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "757-TLP250(F)"
-			(at 148.59 823.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP250F?qs=f0GatGUIxV2cDxQrFeprhQ%3D%3D"
-			(at 148.59 923.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "TLP250(F)"
-			(at 148.59 1023.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlp250-f/toshiba"
-			(at 148.59 1123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "4"
-			(uuid "e42f2cf6-598c-47a6-a592-02e115ae3d3b")
-		)
-		(pin "1"
-			(uuid "3265fecf-d56d-4ccc-a3bd-12b7d6390c38")
-		)
-		(pin "2"
-			(uuid "68ea3783-eb80-4f7c-95a6-fdc24c682589")
-		)
-		(pin "3"
-			(uuid "99ed8432-cfe3-44ab-95c6-69fe7b141fd4")
-		)
-		(pin "7"
-			(uuid "f0bb191f-79ab-4f30-8ded-c8885a920c4e")
-		)
-		(pin "5"
-			(uuid "f4db282b-4921-4f59-b0eb-01d7b80fefe8")
-		)
-		(pin "8"
-			(uuid "7db97f46-c317-477e-a508-a67d51da7807")
-		)
-		(pin "6"
-			(uuid "5d307b51-6041-4e1c-98a3-3657e57acc9a")
-		)
-		(instances
-			(project "180V_DC_Driver"
-				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 124.46 95.25 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33df3cdc-2e1a-46fe-88d3-b1ed0d6a443e")
-		(property "Reference" "C2"
-			(at 128.27 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1000uF 400V"
-			(at 128.27 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.4948 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 124.46 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e08c7018-cb20-4d8e-92ad-47a78c139f71")
-		)
-		(pin "1"
-			(uuid "a97f10ab-fcf8-4837-9af3-306846653564")
-		)
-		(instances
-			(project "180V_DC_Driver"
-				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:61300311121")
-		(at 83.82 133.35 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "365a5747-90f3-43c2-945a-ae18ab66a85f")
+		(uuid "16fe0cd8-66bc-4ecd-8eb9-9d59d05cc14c")
 		(property "Reference" "J3"
-			(at 67.31 132.0801 0)
+			(at 137.16 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3196,8 +3596,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Logic_In"
-			(at 67.31 129.5401 0)
+		(property "Value" "Conn_01x02_Socket"
+			(at 137.16 118.1099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3207,32 +3607,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HDRV3W64P0X254_1X3_762X254X869P"
-			(at 67.31 38.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/61300311121.pdf"
-			(at 67.31 -61.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "WR-PHD 2.54 mm Pin Header 3 pins, 1 row, straight, gold plating"
-			(at 83.82 133.35 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3242,8 +3618,8 @@
 				)
 			)
 		)
-		(property "Height" "8.69"
-			(at 67.31 -261.57 0)
+		(property "Datasheet" ""
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3251,11 +3627,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 67.31 -361.57 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3263,77 +3638,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "61300311121"
-			(at 67.31 -461.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "710-61300311121"
-			(at 67.31 -561.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/61300311121?qs=PhR8RmCirEYxRWFJzNKsUw%3D%3D"
-			(at 67.31 -661.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 67.31 -761.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 67.31 -861.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 			)
 		)
 		(pin "1"
-			(uuid "e49b6fbb-6607-4594-8993-030c8510fc6c")
-		)
-		(pin "3"
-			(uuid "60620465-a748-475b-b043-d0eff9df1cad")
+			(uuid "1ae8e71b-d345-4d7e-be0c-526749bc6ef1")
 		)
 		(pin "2"
-			(uuid "34a71515-97e9-4407-b8a4-c87513f935fb")
+			(uuid "3f872c2d-ede3-4451-b3ee-0ed9ba7cfa8b")
 		)
 		(instances
 			(project "180V_DC_Driver"
@@ -3345,8 +3656,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 179.07 88.9 90)
+		(lib_id "SamacSys_Parts:HLK-PM12")
+		(at 73.66 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3355,9 +3666,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "41930e2b-b8c0-43ff-b762-829a838b14c9")
-		(property "Reference" "F1"
-			(at 179.07 82.55 90)
+		(uuid "252730ff-c435-408e-abb6-cb93a77d5e0c")
+		(property "Reference" "PS1"
+			(at 87.63 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3366,8 +3677,8 @@
 				)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 179.07 85.09 90)
+		(property "Value" "HLK-PM12"
+			(at 87.63 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3376,8 +3687,347 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 90.678 90)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_Hi-Link_HLK-PMxx"
+			(at 97.79 210.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://static.chipdip.ru/lib/919/DOC012919592.pdf"
+			(at 97.79 310.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "3WUltra-small PowerModule"
+			(at 73.66 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "15"
+			(at 97.79 510.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Hi-Link"
+			(at 97.79 610.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "HLK-PM12"
+			(at 97.79 710.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 97.79 810.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 97.79 910.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 97.79 1010.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 97.79 1110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "58422c80-ae50-421c-af71-ca988255d9b2")
+		)
+		(pin "1"
+			(uuid "6e9888c9-c455-486e-8aef-164cddfcfbdf")
+		)
+		(pin "4"
+			(uuid "efe1c5fe-f0f6-4c90-b2fc-432b4c62e774")
+		)
+		(pin "3"
+			(uuid "bee94f7b-acdc-4d86-bff1-e8979a2180e8")
+		)
+		(instances
+			(project "180V_DC_Driver"
+				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:400VXH1000MEFCSN35X50")
+		(at 123.19 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3c35d3d7-a015-43a6-ad06-9ac220b3a7f5")
+		(property "Reference" "C5"
+			(at 123.444 92.964 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "400VXH1000MEFCSN35X50"
+			(at 127 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 27 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/VXH.pdf"
+			(at -73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "1000 F 400 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 2000 Hrs @ 105C"
+			(at 123.19 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "52"
+			(at -273 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Rubycon"
+			(at -373 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "400VXH1000MEFCSN35X50"
+			(at -473 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at -573 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at -673 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -773 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -873 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "f2982827-2ebc-4ffa-9b10-af124aacd25b")
+		)
+		(pin "2"
+			(uuid "f9170239-0fcd-4249-b0a9-aed0961d6abe")
+		)
+		(instances
+			(project "180V_DC_Driver"
+				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 73.66 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ee4d788-710f-4197-a547-192a190e7d12")
+		(property "Reference" "TH1"
+			(at 73.9775 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 73.9775 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D16.0mm_W5.0mm_P10.00mm"
+			(at 72.39 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3388,7 +4038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 88.9 0)
+			(at 72.39 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3398,8 +4048,8 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
-			(at 179.07 88.9 0)
+		(property "Description" "Temperature dependent resistor, negative temperature coefficient"
+			(at 73.66 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,17 +4058,94 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "65fa8168-8526-4bf0-a61a-b379a659e947")
 		)
 		(pin "1"
-			(uuid "d036458b-97e4-4830-be1e-2389c65d45ce")
+			(uuid "32192f43-4050-4a9c-ab54-f230ac842efb")
+		)
+		(pin "2"
+			(uuid "2c7f00e6-9297-4519-a68e-886f474eb0dc")
 		)
 		(instances
 			(project "180V_DC_Driver"
 				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "F1")
+					(reference "TH1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 193.04 119.38 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "437c1b1a-cc16-4bf7-b65e-9add3f14128b")
+		(property "Reference" "J4"
+			(at 193.675 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 193.675 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 193.04 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e8212cc6-d8b4-4d31-971a-f5aad96b8b2b")
+		)
+		(instances
+			(project "180V_DC_Driver"
+				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3427,7 +4154,7 @@
 	(symbol
 		(lib_name "R_1")
 		(lib_id "Device:R")
-		(at 143.51 95.25 0)
+		(at 156.21 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3438,7 +4165,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d257e36-36fb-4339-a0af-aa87cda862fe")
 		(property "Reference" "R1"
-			(at 149.86 95.25 90)
+			(at 162.56 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3448,7 +4175,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 147.32 95.25 90)
+			(at 160.02 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3457,8 +4184,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.732 95.25 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 154.432 95.25 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3469,7 +4196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 95.25 0)
+			(at 156.21 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3480,7 +4207,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 143.51 95.25 0)
+			(at 156.21 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3507,7 +4234,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:B32654A4335K000")
-		(at 160.02 88.9 270)
+		(at 167.64 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3518,7 +4245,7 @@
 		(fields_autoplaced yes)
 		(uuid "506198fd-38b6-4a69-a852-58ba6a94cde0")
 		(property "Reference" "C1"
-			(at 163.83 93.9799 90)
+			(at 171.45 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,7 +4256,7 @@
 			)
 		)
 		(property "Value" "B32654A4335K000"
-			(at 163.83 96.5199 90)
+			(at 171.45 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3539,8 +4266,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "B32654A4335K000"
-			(at 63.83 97.79 0)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4"
+			(at 71.45 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +4279,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32651_658.pdf"
-			(at -36.17 97.79 0)
+			(at -28.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,7 +4291,7 @@
 			)
 		)
 		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 3.3uF, 400V DC, 19mm(W) x 30mm(H) x 31.5mm(L)"
-			(at 160.02 88.9 0)
+			(at 167.64 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +4302,7 @@
 			)
 		)
 		(property "Height" "30"
-			(at -236.17 97.79 0)
+			(at -228.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,7 +4314,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TDK"
-			(at -336.17 97.79 0)
+			(at -328.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3599,7 +4326,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "B32654A4335K000"
-			(at -436.17 97.79 0)
+			(at -428.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +4338,7 @@
 			)
 		)
 		(property "Mouser Part Number" "871-B32654A4335K"
-			(at -536.17 97.79 0)
+			(at -528.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3623,7 +4350,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32654A4335K"
-			(at -636.17 97.79 0)
+			(at -628.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +4362,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -736.17 97.79 0)
+			(at -728.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3647,7 +4374,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -836.17 97.79 0)
+			(at -828.55 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3674,8 +4401,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 160.02 151.13 0)
+		(lib_id "Device:C_Polarized")
+		(at 111.76 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3684,30 +4411,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "59b05280-02ec-4ff6-822b-b773485bc124")
-		(property "Reference" "#PWR01"
-			(at 160.02 156.21 0)
-			(hide yes)
+		(uuid "87bfa6d7-42a9-4dca-9a9c-b56e78c0d61e")
+		(property "Reference" "C2"
+			(at 115.57 116.4589 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "GNDPWR"
-			(at 159.893 154.94 0)
+		(property "Value" "C_Polarized"
+			(at 115.57 118.9989 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 160.02 152.4 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+			(at 110.7948 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3718,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 152.4 0)
+			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,86 +4456,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 160.02 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15db3b47-412f-4ba0-965e-a5a4532bcc10")
-		)
-		(instances
-			(project "180V_DC_Driver"
-				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 220.98 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8483a7f6-b479-414b-a6cb-3be753ac7270")
-		(property "Reference" "#PWR02"
-			(at 220.98 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 220.853 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 220.98 139.7 0)
+		(property "Description" "Polarized capacitor"
+			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,12 +4468,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f60f73f-a3c3-4574-929a-1c09746f9fa1")
+			(uuid "d141dcb5-05ce-4bec-99cb-85ec9fca5b8f")
+		)
+		(pin "2"
+			(uuid "b24337bd-72d6-4ed9-9d03-ff91c6598e55")
 		)
 		(instances
 			(project "180V_DC_Driver"
 				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "#PWR02")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3863,7 +4516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "1935161"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 237.49 183.82 0)
 			(hide yes)
 			(show_name no)
@@ -4031,7 +4684,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO533P482X997X1956-2P"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-2_Vertical"
 			(at 104.47 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4166,8 +4819,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:1935161")
-		(at 151.13 151.13 180)
+		(lib_id "SamacSys_Parts:400VXH1000MEFCSN35X50")
+		(at 140.97 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4175,30 +4828,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c481fbb4-12a7-43de-b9b9-27d1df1d3ddb")
-		(property "Reference" "J4"
-			(at 140.97 140.97 0)
+		(uuid "ca0d3aaa-09da-474e-bac0-23c79d3cb4b5")
+		(property "Reference" "C4"
+			(at 141.224 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "12V_In"
-			(at 140.97 143.51 0)
+		(property "Value" "400VXH1000MEFCSN35X50"
+			(at 144.78 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "1935161"
-			(at 134.62 56.21 0)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 44.78 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4209,8 +4863,8 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-pt-15-2-50-h-1935161?type=pdf"
-			(at 134.62 -43.79 0)
+		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/VXH.pdf"
+			(at -55.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4221,8 +4875,8 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Phoenix Contact COMBICON PT PCB Terminal Block, 2 Way/Pole, Screw Terminals, 26  14 AWG Through Hole, Nylon"
-			(at 151.13 151.13 0)
+		(property "Description" "1000 F 400 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 2000 Hrs @ 105C"
+			(at 140.97 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,20 +4886,8 @@
 				)
 			)
 		)
-		(property "Height" "11.55"
-			(at 134.62 -243.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 134.62 -343.79 0)
+		(property "Height" "52"
+			(at -255.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4256,8 +4898,8 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1935161"
-			(at 134.62 -443.79 0)
+		(property "Manufacturer_Name" "Rubycon"
+			(at -355.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4268,8 +4910,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "651-1935161"
-			(at 134.62 -543.79 0)
+		(property "Manufacturer_Part_Number" "400VXH1000MEFCSN35X50"
+			(at -455.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4280,8 +4922,8 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935161?qs=W3wJikR1%252BS6eKzfFl8Rbew%3D%3D"
-			(at 134.62 -643.79 0)
+		(property "Mouser Part Number" ""
+			(at -555.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4292,8 +4934,8 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "1935161"
-			(at 134.62 -743.79 0)
+		(property "Mouser Price/Stock" ""
+			(at -655.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4304,8 +4946,20 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935161/phoenix-contact?utm_currency=USD&region=nac"
-			(at 134.62 -843.79 0)
+		(property "Arrow Part Number" ""
+			(at -755.22 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -855.22 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4317,15 +4971,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4fc1dc6-60db-4652-a9f8-058de636619a")
+			(uuid "511011dd-ef10-4ef6-b01c-24755e78c05a")
 		)
 		(pin "2"
-			(uuid "01a6d0e5-d866-4ce1-b7b6-d74a73120740")
+			(uuid "a4f70c53-5bc5-4204-892f-e075f582e9d1")
 		)
 		(instances
 			(project "180V_DC_Driver"
 				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "J4")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4333,7 +4987,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:1935161")
-		(at 113.03 101.6 180)
+		(at 50.8 91.44 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4344,29 +4998,27 @@
 		(fields_autoplaced yes)
 		(uuid "d1875a85-f1e4-4e59-bf87-71439d9e75cd")
 		(property "Reference" "J1"
-			(at 96.52 101.6001 0)
+			(at 40.64 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "DC_In"
-			(at 96.52 99.0601 0)
+		(property "Value" "AC_In"
+			(at 40.64 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "1935161"
-			(at 96.52 6.68 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 34.29 -3.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4378,7 +5030,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-pt-15-2-50-h-1935161?type=pdf"
-			(at 96.52 -93.32 0)
+			(at 34.29 -103.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4390,7 +5042,7 @@
 			)
 		)
 		(property "Description" "Phoenix Contact COMBICON PT PCB Terminal Block, 2 Way/Pole, Screw Terminals, 26  14 AWG Through Hole, Nylon"
-			(at 113.03 101.6 0)
+			(at 50.8 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4401,7 +5053,7 @@
 			)
 		)
 		(property "Height" "11.55"
-			(at 96.52 -293.32 0)
+			(at 34.29 -303.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4413,7 +5065,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Phoenix Contact"
-			(at 96.52 -393.32 0)
+			(at 34.29 -403.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4425,7 +5077,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1935161"
-			(at 96.52 -493.32 0)
+			(at 34.29 -503.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4437,7 +5089,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1935161"
-			(at 96.52 -593.32 0)
+			(at 34.29 -603.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4449,7 +5101,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1935161?qs=W3wJikR1%252BS6eKzfFl8Rbew%3D%3D"
-			(at 96.52 -693.32 0)
+			(at 34.29 -703.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4461,7 +5113,7 @@
 			)
 		)
 		(property "Arrow Part Number" "1935161"
-			(at 96.52 -793.32 0)
+			(at 34.29 -803.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4473,7 +5125,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1935161/phoenix-contact?utm_currency=USD&region=nac"
-			(at 96.52 -893.32 0)
+			(at 34.29 -903.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,8 +5152,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 194.31 119.38 90)
+		(lib_id "Device:Fuse")
+		(at 66.04 115.57 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4510,9 +5162,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d2c350fd-828c-41ce-b4a8-028d5dce91fd")
-		(property "Reference" "R2"
-			(at 194.31 113.03 90)
+		(uuid "d58278e0-4326-4409-87ca-5760ccb2b2b1")
+		(property "Reference" "F2"
+			(at 66.04 109.22 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4521,8 +5173,8 @@
 				)
 			)
 		)
-		(property "Value" "10"
-			(at 194.31 115.57 90)
+		(property "Value" "Fuse"
+			(at 66.04 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4531,8 +5183,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 121.158 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 66.04 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4543,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 119.38 0)
+			(at 66.04 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4553,8 +5205,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 194.31 119.38 0)
+		(property "Description" "Fuse"
+			(at 66.04 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4563,17 +5215,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "357fce7a-79bf-4a09-8b8f-25b18aa43efd")
 		)
 		(pin "2"
-			(uuid "2726584f-0e43-4cda-8c82-d9a86e889ee7")
+			(uuid "50362fc9-99c9-4862-b338-254b6a7adbd3")
+		)
+		(pin "1"
+			(uuid "6e68aa78-29c8-4c74-92c4-b070c4f7afdc")
 		)
 		(instances
 			(project "180V_DC_Driver"
 				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
-					(reference "R2")
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -4613,7 +5265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TO546P531X1558X2511-3P"
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
 			(at 224.79 218.11 0)
 			(hide yes)
 			(show_name no)
@@ -4751,6 +5403,178 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:KBPC5010W")
+		(at 106.68 88.9 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d982cd92-ecc6-4d51-bf02-e7c5d3d9f13d")
+		(property "Reference" "BR1"
+			(at 93.98 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KBPC5010W"
+			(at 93.98 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:Diode_Bridge_28.6x28.6x7.3mm_P18.0mm_P11.6mm"
+			(at 85.09 -6.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.comchiptech.com/admin/files/product/20181106093830.PDF"
+			(at 85.09 -106.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Bridge Rectifier Single Phase Standard 1 kV Through Hole KBPC-W"
+			(at 106.68 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "11.23"
+			(at 85.09 -306.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "GeneSiC Semiconductor"
+			(at 85.09 -406.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KBPC5010W"
+			(at 85.09 -506.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "905-KBPC5010W"
+			(at 85.09 -606.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GeneSiC-Semiconductor/KBPC5010W?qs=3vb5YHheJT0GglhdgIf9cQ%3D%3D"
+			(at 85.09 -706.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 85.09 -806.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 85.09 -906.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "e3c6f346-c331-4074-b0b8-ca52d39b1513")
+		)
+		(pin "4"
+			(uuid "30133e65-685d-4f7f-8292-8d9683eba867")
+		)
+		(pin "3"
+			(uuid "b73c297a-2200-4a11-b65f-0a6666348808")
+		)
+		(pin "1"
+			(uuid "67749d2e-29f5-4188-aec2-0f23b2867c5d")
+		)
+		(instances
+			(project "180V_DC_Driver"
+				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
+					(reference "BR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 205.74 130.81 0)
 		(unit 1)
@@ -4784,7 +5608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 203.962 130.81 90)
 			(hide yes)
 			(show_name no)
