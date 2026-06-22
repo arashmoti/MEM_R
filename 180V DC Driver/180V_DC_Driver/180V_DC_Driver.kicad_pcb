@@ -1775,6 +1775,12 @@
 		(path "/d6e1834f-d159-4cb6-88d4-63dc0acde014")
 		(sheetname "/")
 		(sheetfile "180V_DC_Driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -15564,6 +15570,251 @@
 			)
 		)
 	)
+	(footprint "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm"
+		(layer "F.Cu")
+		(uuid "6fdb50ce-5c50-4e79-b153-4ed018363020")
+		(at 69 30 -90)
+		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=10.5*5.0mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
+		(tags "C Disc series Radial pin pitch 5.00mm diameter 10.5mm width 5.0mm Capacitor")
+		(property "Reference" "RV1"
+			(at 2.5 -3.75 90)
+			(layer "F.SilkS")
+			(uuid "34d47a2b-0452-4a3b-bcf0-488ed2552669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Varistor"
+			(at 2.5 3.75 90)
+			(layer "F.Fab")
+			(uuid "d55df3ee-0c81-4ec9-8d27-f83d70e2d6bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1800228a-deea-44cc-a9aa-93547273f84e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage dependent resistor"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18a9b90e-5ed8-4a24-abef-85574049fd4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "capacitor/THT/other"
+			(at 0 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4ed6d98b-0ab0-4eb7-953a-53c29b2b1006")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e01ff7d4-59ea-479b-b27c-ac9c2390819d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f6bf241-e427-4780-ad22-1e16711e1d33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "005b74c7-957b-4a18-8133-f404d09d8d37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89cb30ca-47ce-4533-87e0-57ef3fc3dc44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ec1e095-7a73-434b-856c-58265a750882")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "RV_* Varistor*")
+		(path "/d5000434-65a9-424e-9fb5-e2cd06462d23")
+		(sheetname "/")
+		(sheetfile "180V_DC_Driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.87 2.62)
+			(end -2.87 -2.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b396480a-9604-4223-bef9-1873bfb86a52")
+		)
+		(fp_line
+			(start 7.87 2.62)
+			(end -2.87 2.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0b51bf7d-3862-4bda-b815-6720ee35a7cd")
+		)
+		(fp_line
+			(start -2.87 -2.62)
+			(end 7.87 -2.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3947dcee-9a1a-446c-adf9-d4c927421409")
+		)
+		(fp_line
+			(start 7.87 -2.62)
+			(end 7.87 2.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9b8af27-fda8-45d0-98a9-6c607b64fbcf")
+		)
+		(fp_rect
+			(start -3 -2.75)
+			(end 8 2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1e58dc28-657a-4c85-9c9b-7fb77f65f68c")
+		)
+		(fp_rect
+			(start -2.75 -2.5)
+			(end 7.75 2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d491b5a4-d3ff-4a05-bd59-6b61dfa9255e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 2.5 0 90)
+			(layer "F.Fab")
+			(uuid "ba7f9480-09be-4df0-a85e-d7d812f3ebb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 270)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(PS1-AC_1)")
+			(pintype "passive")
+			(uuid "93cd1c32-79bc-4e6b-918b-ac4b9f18b836")
+		)
+		(pad "2" thru_hole circle
+			(at 5 0 270)
+			(size 2 2)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BR1-~_1)")
+			(pintype "passive")
+			(uuid "d434f78c-84e6-4800-ab12-f4631cc6960b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D10.5mm_W5.0mm_P5.00mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7290ad62-a73c-44a3-9da5-62d63a51be86")
@@ -16881,6 +17132,12 @@
 		(path "/d58278e0-4326-4409-87ca-5760ccb2b2b1")
 		(sheetname "/")
 		(sheetfile "180V_DC_Driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -17420,6 +17677,14 @@
 		(uuid "8fa22607-71b0-4239-87e0-b92802c43d70")
 	)
 	(segment
+		(start 69 41)
+		(end 36 41)
+		(width 3)
+		(layer "B.Cu")
+		(net "Net-(BR1-~_1)")
+		(uuid "03c11d9f-5bc3-47d2-a8b6-bbd6422e9b44")
+	)
+	(segment
 		(start 79.7125 36.5)
 		(end 75.2125 41)
 		(width 3)
@@ -17434,6 +17699,14 @@
 		(layer "B.Cu")
 		(net "Net-(BR1-~_1)")
 		(uuid "3d0d354c-9bc1-450f-8492-2ccebe667be7")
+	)
+	(segment
+		(start 69 35)
+		(end 69 41)
+		(width 3)
+		(layer "B.Cu")
+		(net "Net-(BR1-~_1)")
+		(uuid "64ccf8eb-3ebf-4d8d-a369-8e5942889f88")
 	)
 	(segment
 		(start 45 99)
@@ -17461,7 +17734,7 @@
 	)
 	(segment
 		(start 75.2125 41)
-		(end 36 41)
+		(end 69 41)
 		(width 3)
 		(layer "B.Cu")
 		(net "Net-(BR1-~_1)")
@@ -17652,8 +17925,16 @@
 		(uuid "fce70e56-20d4-48da-940f-9193a9471b2d")
 	)
 	(segment
-		(start 62 22)
+		(start 69 22)
 		(end 70.2125 22)
+		(width 3)
+		(layer "B.Cu")
+		(net "Net-(PS1-AC_1)")
+		(uuid "315beacb-e0d7-42f2-ac75-ec9e1bf74a1b")
+	)
+	(segment
+		(start 62 22)
+		(end 69 22)
 		(width 3)
 		(layer "B.Cu")
 		(net "Net-(PS1-AC_1)")
@@ -17666,6 +17947,14 @@
 		(layer "B.Cu")
 		(net "Net-(PS1-AC_1)")
 		(uuid "c831876a-60e9-411d-8bfe-d6a0fd1f2a00")
+	)
+	(segment
+		(start 69 30)
+		(end 69 22)
+		(width 3)
+		(layer "B.Cu")
+		(net "Net-(PS1-AC_1)")
+		(uuid "ce5e7d58-0096-4a15-96ee-b30559f6a43e")
 	)
 	(embedded_fonts no)
 )

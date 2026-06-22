@@ -1071,6 +1071,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Varistor"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RV"
+				(at 3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Varistor"
+				(at -3.175 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Voltage dependent resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_varistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=A 2=B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Params" "threshold=1k"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "VDR resistance"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RV_* Varistor*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Varistor_0_0"
+				(text "U"
+					(at -1.778 -2.032 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "Varistor_0_1"
+				(polyline
+					(pts
+						(xy -1.905 2.54) (xy -1.905 1.27) (xy 1.905 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Varistor_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "R_1"
 			(pin_names
 				(offset 0)
@@ -2974,6 +3191,12 @@
 		(uuid "17fe6152-0349-44db-bf6f-1231ad5c82a2")
 	)
 	(junction
+		(at 119.38 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b967494-d1a4-48e1-a653-5261d4a888d0")
+	)
+	(junction
 		(at 140.97 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2998,16 +3221,22 @@
 		(uuid "5aaa023f-f4c1-415e-89f8-239e191600dc")
 	)
 	(junction
+		(at 175.26 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ac3975b-d0fd-4ba3-a990-93321004a35f")
+	)
+	(junction
 		(at 130.81 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "665ca9b1-d2b3-4d9e-8ce1-321dca9a10ac")
 	)
 	(junction
-		(at 123.19 101.6)
+		(at 175.26 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ba75e5b-6777-427c-801e-9f87b4c87a0b")
+		(uuid "6b23118d-24bd-422a-96a8-71832f0ca634")
 	)
 	(junction
 		(at 53.34 88.9)
@@ -3034,10 +3263,22 @@
 		(uuid "8b4e5177-3649-4d74-b566-5e5fa342633d")
 	)
 	(junction
-		(at 123.19 88.9)
+		(at 67.31 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a34da9fd-f4b0-4bb5-9ec7-87fef1c991d6")
+		(uuid "91b0cae1-02ed-47e8-b1bc-7fe63207e117")
+	)
+	(junction
+		(at 119.38 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a78f6b20-acc7-4444-9740-52aec995463e")
+	)
+	(junction
+		(at 60.96 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd81d15a-2655-4c85-9263-dbb04fe73ee4")
 	)
 	(junction
 		(at 167.64 101.6)
@@ -3135,7 +3376,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 88.9) (xy 123.19 88.9)
+			(xy 106.68 88.9) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3172,6 +3413,16 @@
 			(type default)
 		)
 		(uuid "3f8c5d5f-e80f-40bb-b8da-08826500250d")
+	)
+	(wire
+		(pts
+			(xy 175.26 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f44fe69-512c-42dc-82a1-429ccc11ed22")
 	)
 	(wire
 		(pts
@@ -3225,7 +3476,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 115.57) (xy 73.66 115.57)
+			(xy 60.96 118.11) (xy 50.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d2db0c5-a347-4e3f-bc3c-176a75db2376")
+	)
+	(wire
+		(pts
+			(xy 63.5 115.57) (xy 67.31 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3536,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 115.57) (xy 53.34 115.57)
+			(xy 55.88 115.57) (xy 53.34 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 118.11) (xy 50.8 118.11)
+			(xy 73.66 118.11) (xy 60.96 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3335,6 +3596,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 118.11) (xy 60.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f66c42-4a23-4dca-9505-d1c455f6b720")
+	)
+	(wire
+		(pts
 			(xy 205.74 134.62) (xy 205.74 139.7)
 		)
 		(stroke
@@ -3352,6 +3623,16 @@
 			(type default)
 		)
 		(uuid "a0434978-2973-4d33-a390-45092bb54c59")
+	)
+	(wire
+		(pts
+			(xy 175.26 88.9) (xy 201.93 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a098d894-c1a3-4ae7-9da7-1cec7fa4917d")
 	)
 	(wire
 		(pts
@@ -3395,7 +3676,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 177.8 101.6)
+			(xy 167.64 101.6) (xy 175.26 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3405,7 +3686,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 123.19 101.6)
+			(xy 114.3 101.6) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3435,6 +3716,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 123.19) (xy 60.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e30b6b-3b46-4ea3-8d82-6666a79944b7")
+	)
+	(wire
+		(pts
 			(xy 101.6 118.11) (xy 105.41 118.11)
 		)
 		(stroke
@@ -3445,7 +3736,17 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 201.93 88.9)
+			(xy 67.31 115.57) (xy 73.66 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6ce101-ae59-486f-81b7-5b4627ca7a71")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3505,6 +3806,26 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 88.9) (xy 140.97 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ec040d-13b8-4e76-a64c-f6e7c9bb97f5")
+	)
+	(wire
+		(pts
+			(xy 119.38 101.6) (xy 140.97 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30277e2-45a0-490f-9f59-4f3070841375")
+	)
+	(wire
+		(pts
 			(xy 106.68 86.36) (xy 110.49 86.36)
 		)
 		(stroke
@@ -3525,16 +3846,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 101.6) (xy 140.97 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2958dc-ce7a-4caa-85cf-e0f060d20b4d")
-	)
-	(wire
-		(pts
 			(xy 105.41 115.57) (xy 105.41 113.03)
 		)
 		(stroke
@@ -3542,16 +3853,6 @@
 			(type default)
 		)
 		(uuid "ee4440b4-7687-4a3a-8de3-779804579d03")
-	)
-	(wire
-		(pts
-			(xy 123.19 88.9) (xy 140.97 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0dda7e4-3a68-4c04-91ae-2c1068d9230b")
 	)
 	(wire
 		(pts
@@ -3829,7 +4130,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:400VXH1000MEFCSN35X50")
-		(at 123.19 88.9 270)
+		(at 119.38 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3839,7 +4140,7 @@
 		(dnp no)
 		(uuid "3c35d3d7-a015-43a6-ad06-9ac220b3a7f5")
 		(property "Reference" "C5"
-			(at 123.444 92.964 90)
+			(at 119.634 92.964 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3850,7 +4151,7 @@
 			)
 		)
 		(property "Value" "400VXH1000MEFCSN35X50"
-			(at 127 96.5199 90)
+			(at 123.19 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3861,7 +4162,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
-			(at 27 97.79 0)
+			(at 23.19 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,7 +4174,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/VXH.pdf"
-			(at -73 97.79 0)
+			(at -76.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,7 +4186,7 @@
 			)
 		)
 		(property "Description" "1000 F 400 V Aluminum Electrolytic Capacitors Radial, Can - Snap-In 2000 Hrs @ 105C"
-			(at 123.19 88.9 0)
+			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3896,7 +4197,7 @@
 			)
 		)
 		(property "Height" "52"
-			(at -273 97.79 0)
+			(at -276.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +4209,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Rubycon"
-			(at -373 97.79 0)
+			(at -376.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3920,7 +4221,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "400VXH1000MEFCSN35X50"
-			(at -473 97.79 0)
+			(at -476.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3932,7 +4233,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at -573 97.79 0)
+			(at -576.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3944,7 +4245,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at -673 97.79 0)
+			(at -676.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3956,7 +4257,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -773 97.79 0)
+			(at -776.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3968,7 +4269,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -873 97.79 0)
+			(at -876.81 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4567,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W20.0mm_P27.50mm_MKS4"
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4"
 			(at 71.45 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4819,6 +5120,174 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:B32654A4335K000")
+		(at 175.26 88.9 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9a4e53c-d3df-4b6b-bb19-c2ace9daf81f")
+		(property "Reference" "C3"
+			(at 179.07 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B32654A4335K000"
+			(at 179.07 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L31.5mm_W13.0mm_P27.50mm_MKS4"
+			(at 79.07 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/film/mkp_mfp/data_sheet/20/20/db/fc_2009/mkp_b32651_658.pdf"
+			(at -20.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Metallized Polypropylene Capacitors (MKP/MFP), 3.3uF, 400V DC, 19mm(W) x 30mm(H) x 31.5mm(L)"
+			(at 175.26 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "30"
+			(at -220.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at -320.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B32654A4335K000"
+			(at -420.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "871-B32654A4335K"
+			(at -520.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=871-B32654A4335K"
+			(at -620.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -720.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -820.93 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "8051ecba-36f8-4aba-9a3c-0e67d4f13066")
+		)
+		(pin "1"
+			(uuid "cd09d68c-54f2-4ce8-91ce-5045d576ef5f")
+		)
+		(instances
+			(project "180V_DC_Driver"
+				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:400VXH1000MEFCSN35X50")
 		(at 140.97 88.9 270)
 		(unit 1)
@@ -5152,8 +5621,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 66.04 115.57 90)
+		(lib_id "Device:Varistor")
+		(at 67.31 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5162,29 +5631,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d58278e0-4326-4409-87ca-5760ccb2b2b1")
-		(property "Reference" "F2"
-			(at 66.04 109.22 90)
+		(uuid "d5000434-65a9-424e-9fb5-e2cd06462d23")
+		(property "Reference" "RV1"
+			(at 69.85 118.3032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Fuse"
-			(at 66.04 111.76 90)
+		(property "Value" "Varistor"
+			(at 69.85 120.8432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 66.04 117.348 90)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.5mm_W5.0mm_P5.00mm"
+			(at 65.532 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5195,7 +5666,142 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 115.57 0)
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Voltage dependent resistor"
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_varistor"
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=B"
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "threshold=1k"
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 67.31 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b842b2a-dd42-437b-a113-c9d15498d3d1")
+		)
+		(pin "1"
+			(uuid "6d468196-1da9-4a6e-8edb-b81fd5e56203")
+		)
+		(instances
+			(project "180V_DC_Driver"
+				(path "/13bfba2c-6cdb-45b8-8af4-616b0af37af3"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 59.69 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58278e0-4326-4409-87ca-5760ccb2b2b1")
+		(property "Reference" "F2"
+			(at 59.69 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 59.69 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 59.69 117.348 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5206,7 +5812,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 66.04 115.57 0)
+			(at 59.69 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
